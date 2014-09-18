@@ -1,0 +1,25 @@
+{% include top.html %}
+
+<body>
+	<div id='container'>
+		<div id='header'>
+			{% include header.html %}
+		</div>
+
+		<div id="content">
+			{{ content }}
+		</div>
+		<div id="footer">
+		  {% include footer.html %}
+      {% include anchor_links.html %}
+		</div>
+	</div>
+
+<div id='corner_pop'>
+	<?php 
+		//echo $this->Html->image('nametag.gif', array ('id' => 'label', 'class' => 'trans'));
+		//echo $this->Html->image('leesi_tr_bw.gif', array ('class' => 'gray trans'));
+	?>
+</div>
+</body>
+</html>
