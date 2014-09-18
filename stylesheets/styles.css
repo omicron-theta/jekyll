@@ -68,6 +68,16 @@
   -webkit-font-smoothing: antialiased;
 }
 
+@font-face {
+	font-family: FiraSans;
+	src: url('../fonts/FiraSansOT-Medium.otf') format('opentype');
+}
+@font-face {
+	font-family: FiraSans-Light;
+	src: url('../fonts/FiraSansOT-Light.otf') format('opentype');
+}
+
+
 /* normalize.css 2012-02-07T12:37 UTC - http://github.com/necolas/normalize.css */
 /* =============================================================================
    HTML5 display definitions
@@ -531,7 +541,7 @@ table {
 body {
   padding: 0px 0 20px 0px;
   margin: 0px;
-  font: 14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 14px/1.5 'Century Gothic', FiraSans-Light, Arial;
   /*color: #FFFEF5; */
   color: #FFFEF5;
   font-weight: normal;
@@ -548,7 +558,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color: #e8e8e8;
   margin: 0 0 10px;
-  font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Century Gothic', FiraSans-Light, Arial;
   font-weight: normal;
 }
 
@@ -575,7 +585,7 @@ h4, h5, h6 {
 h3 {
   font-size: 18px;
   line-height: 24px;
-  font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-family: 'Century Gothic', FiraSans-Light, Arial;
   font-weight: normal;
   color: #b6b6b6;
 }
@@ -601,7 +611,7 @@ ul {
 }
 
 strong {
-  font-family: 'OpenSansBold', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-family: 'Century Gothic', FiraSans-Light, Arial;
   font-weight: normal;
 }
 
@@ -671,7 +681,7 @@ th {
   padding: 5px 10px;
   border-bottom: 1px solid #434343;
   color: #b6b6b6;
-  font-family: 'OpenSansSemibold', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-family: 'Century Gothic', FiraSans-Light, Arial;
   font-weight: normal;
 }
 
@@ -691,7 +701,7 @@ hr {
 
 dt {
   color: #FFFEF5;
-  font-family: 'OpenSansSemibold', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-family: 'Century Gothic', FiraSans-Light, Arial;
   font-weight: normal;
 }
 
@@ -699,10 +709,11 @@ dt {
   z-index: 100;
   left: 0;
   top: 0px;
-  height: 60px;
+  height: 100px;
   width: 100%;
   position: fixed;
   background: url(../images/nav-bg.gif) #353535;
+  font-family: 'Century Gothic', FiraSans-Light, Arial;
   border-bottom: 4px solid #434343;
   -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
