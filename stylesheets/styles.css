@@ -617,7 +617,7 @@ strong {
 
 .wrap {
   max-width: 650px;
-  margin: 0 auto;
+  margin: 15px auto;
   position: relative;
   padding: 0 20px;
 }
